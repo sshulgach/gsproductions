@@ -4,8 +4,14 @@
   display: block;
   max-width: 870px;
   inline: block;
-
 }
+span {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.5em;
+}
+
 body{
   background-color: rgba(0,0,0,0.5);
 }
@@ -149,7 +155,7 @@ body{
    text-align: center;
    max-width: 1000px;
    margin:0 auto;
-   padding: 10px;
+   padding: 40px;
    height: 500px;
 
  }
@@ -181,18 +187,10 @@ body{
   font-size: 1.6em;
   background-color: rgba(0,0,0,0.4);
   color: #99CCFF;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
-.perf-arts {
-  max-width: 1000px;
-  margin:0 auto;
-  width:50%;
-  float:left;
-  display:block;
-
-}
-.film {
+.service {
   max-width: 1000px;
   margin:0 auto;
   width:50%;
@@ -200,36 +198,6 @@ body{
   display:block;
 }
 
-.photography {
-  max-width: 1000px;
-  margin:0 auto;
-  width:50%;
-  float:left;
-  display:block;
-}
-
-.animation {
-  max-width: 1000px;
-  margin:0 auto;
-  width:50%;
-  float:left;
-  display:block;
-}
-.webdev {
-  max-width: 1000px;
-  margin:0 auto;
-  width:50%;
-  float:left;
-  display:block;
-}
-
-.cookies {
-  max-width: 1000px;
-  margin:0 auto;
-  width:50%;
-  float:left;
-  display:block;
-}
 /*
 #toggle {
   position: absolute;
