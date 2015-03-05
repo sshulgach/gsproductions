@@ -63,25 +63,6 @@ body{
 
 }
 
-.gabiimage {
-  /*
-  width: 0px;
-  margin-left: 50%;
-  float: left;
-  position: relative;
-  left: -410px;
-  inline: block;
-  */
-
-}
-
-.stevenimage{
-  /*
-  float: left;
-  width: 0px;
-  */
-}
-
 .gabiimage:hover ~ .gabiname {
   color: orange;
   font-size: 3em;
@@ -164,30 +145,30 @@ body{
    color: white;
    cursor: default;
    text-align: center;
-   line-height: 60px;
    margin: 50px auto 10px auto;
    max-width: 500px;
  }
 
- .servicelist{
+ .servicelist {
    font-size: 2em;
    font-family: 'Raleway', sans-serif;
    color: white;
    cursor: pointer;
    text-align: center;
-   line-height: 60px;
-   margin: 20px auto;
-   width: 500px;
+   line-height: 150px;
+   margin: 10px auto;
+   max-width: 1500px;
    transition: all 500ms cubic-bezier(1, 1, 0.03, 0.94);
 
  }
 
 .service {
   transition: 0.2s;
-  height: 100px;
   text-align: center;
   /*border-radius: 20px;*/
   background-color: rgba(0,0,0,0.1);
+  position: relative;
+  margin: 20px auto;
 }
 
 .service:hover {
@@ -197,8 +178,23 @@ body{
   border-radius: 50px;
 }
 
+.perf-arts {
 
+}
+.film {
 
+}
+
+.photography {
+
+}
+
+.animation {
+
+}
+.webdev {
+
+}
 /*
 #toggle {
   position: absolute;
