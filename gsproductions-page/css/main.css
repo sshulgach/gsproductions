@@ -45,7 +45,9 @@ body{
 }
 
 
-.profiles .image {
+.image {
+  max-width: 1000px;
+  margin:0 auto;
   width:50%;
   float:left;
   margin-bottom:20px;
@@ -145,8 +147,11 @@ body{
    color: white;
    cursor: default;
    text-align: center;
-   margin: 50px auto 10px auto;
-   max-width: 500px;
+   max-width: 1000px;
+   margin:0 auto;
+   padding: 10px;
+   height: 500px;
+
  }
 
  .servicelist {
@@ -169,6 +174,7 @@ body{
   background-color: rgba(0,0,0,0.1);
   position: relative;
   margin: 20px auto;
+  max-width: 500px;
 }
 
 .service:hover {
@@ -179,21 +185,50 @@ body{
 }
 
 .perf-arts {
+  max-width: 1000px;
+  margin:0 auto;
+  width:50%;
+  float:left;
+  display:block;
 
 }
 .film {
-
+  max-width: 1000px;
+  margin:0 auto;
+  width:50%;
+  float:left;
+  display:block;
 }
 
 .photography {
-
+  max-width: 1000px;
+  margin:0 auto;
+  width:50%;
+  float:left;
+  display:block;
 }
 
 .animation {
-
+  max-width: 1000px;
+  margin:0 auto;
+  width:50%;
+  float:left;
+  display:block;
 }
 .webdev {
+  max-width: 1000px;
+  margin:0 auto;
+  width:50%;
+  float:left;
+  display:block;
+}
 
+.cookies {
+  max-width: 1000px;
+  margin:0 auto;
+  width:50%;
+  float:left;
+  display:block;
 }
 /*
 #toggle {
