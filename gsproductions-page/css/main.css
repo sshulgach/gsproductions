@@ -21,7 +21,7 @@ body{
   cursor: default;
   transition: 0.3s ease-out;
   height: 75px;
-  background-color: orange;
+  background-color: #99CCFF;
   overflow: hidden;
 
 }
@@ -29,7 +29,7 @@ body{
   text-shadow: 0 0 10px white;
   transition: 0.3s ease-in;
   background-color: white;
-  color: orange;
+  color: #99CCFF;
 }
 
 .header-container {
@@ -59,14 +59,14 @@ body{
   width: 230px;
   border-radius: 150px;
   margin: 70px auto 0 auto;
-  border: solid orange 3px;
+  border: solid #99CCFF 3px;
   display:block;
   margin-bottom:40px;
 
 }
 
 .gabiimage:hover ~ .gabiname {
-  color: orange;
+  color: #99CCFF;
   font-size: 3em;
 
   opacity:100;
@@ -75,7 +75,7 @@ body{
 
 .stevenimage:hover ~ .stevenname {
   font-size: 3em;
-  color: orange;
+  color: #99CCFF;
 
   opacity:100;
   transition: 0.2s;
@@ -137,7 +137,7 @@ body{
 }
 .services-accordian:active > .services {
   width: 350px;
-  color: orange;
+  color: #99CCFF;
 }
  */
 
@@ -180,7 +180,7 @@ body{
 .service:hover {
   font-size: 1.6em;
   background-color: rgba(0,0,0,0.4);
-  color: orange;
+  color: #99CCFF;
   border-radius: 50px;
 }
 
@@ -358,7 +358,7 @@ body{
 #hvr-grow:focus,
 #hvr-grow:active {
   transform: scale(1.2);
-  box-shadow: orange 0 0 10px;
+  box-shadow: #99CCFF 0 0 10px;
 }
 
 
